@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1> Edit Profile</h1>
+        <form action="profile.html" id="profile-form">
+            <label>Display Name</label>
+            <input type="text" required>
+            <label>Bio</label>
+            <textarea rows="3"></textarea>
+            <label>Category</label>
+            <select required>
+                <option selected disabled> Select Category</option>
+                <option value="beauty">Beauty</option>
+                <option value="tech">Tech</option>
+                <option value="fitness">Fitness</option>
+            </select>
+            <label> Social Media Link</label>
+            <input type="url" required>
+            <button class="btn" type="submit">Save Profile</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
